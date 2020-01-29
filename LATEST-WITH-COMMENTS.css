@@ -232,7 +232,7 @@
 /*End  Responsive Cart Section Customization */
   
   
-  /* woocommerce  Cart Selection Form */
+   /* Start of On PC products, booking widget upgrades*/
   .tve-woocommerce .quantity input[type="number"].input-text.qty.text {
       border: 1px solid;
       border-color: #ececec;
@@ -275,7 +275,7 @@
   .cart_price.wdr_product_strikeout {
       display: none;
   }
-  /* End Of Cart Selection Form */
+/* End of PC products, booking widget upgrades*/
   
   /* // END OF WOOCOMMERCE  section //  */
   
@@ -298,31 +298,26 @@
   
   /* // //Media Query START // */
   
-  /* media Query for fixing responsiveness on big screens eg 21 inch flat screen */
+  /* STARTING of  Media Query for fixing  responsiveness on 1200px screens */
   @media (min-width: 1200px) {
     .container {
         width: 1170px;
         margin-top: 90px;
     }
 		
-		
-		.woocommerce-page table.shop_table td::before {
+.woocommerce-page table.shop_table td::before {
     top: 30% !important;
     margin-top: -10px !important;
     text-align: left !important;
     display: none!important;
 }
-		
+/* ENDING of  Media Query for fixing  responsiveness on 1200px screens */		
 		
 		
   }
  
   
- .tve-woocommerce table.shop_table tbody tr.cart_item td .product-subtotal::before { 
 
-    content: “SUBTOTAL”;
-
-}
 
 
 .tve-woocommerce .cnt article .woocommerce-message, .tve-woocommerce .cnt article .woocommerce-error, .tve-woocommerce .cnt article .woocommerce-info {
@@ -341,7 +336,7 @@
 
 
 
-  /* media Query for fixing responsiveness on mobile devices */
+ /* STARTING of  Media Query for fixing  responsiveness on 1024px screens */
 
 
   @media screen and (max-width: 1024px) {
@@ -355,22 +350,22 @@
     text-align: left !important;
     display: none!important;
 }
-		
-		
-		
-		
+	
   }
+ /* ENDING of Media Query for fixing  responsiveness on 1024px screens */
 
 
-  /* media Query for fixing  responsiveness on screens of a standard laptop */
+ /* STARTING of  Media Query for fixing  responsiveness on 992px screens */
   @media (min-width: 992px) {
     .container {
         width: 970px;
         margin-top: 116px;
     }
   }
-  /* media Query for fixing responsiveness on mobile devices tablets */
+  /* ENDING of Media Query for fixing  responsiveness on 992px screens */
 
+
+/* STARTING of  Media Query for fixing  responsiveness on 768px screens */
   
 @media (max-width: 768px) {
     
@@ -465,30 +460,27 @@
     text-align: center;
     width: 80px !important;
     border-radius: 10px;
-}	
-		
-		
-		
+}			
   }
+/* ENDING of  Media Query for fixing  responsiveness on 768px screens */
 
 
-
-  /* Responsive For Small Screen Sizes from 480px and below  */
+ /* STARTING of Media Query for fixing  responsiveness on 480px screens */
   @media (max-width: 480px) {
 
     
     /*   progress Bar */
     
-    .tqb-question-text  {
+   .tqb-question-text  {
       font-size: 20px !important;
       line-height: 30px !important;
     }
 		
 		
-		/* Cart Billing border(on the tables) */
+/* Cart Billing border(on the tables) */
 	
 		
-	/* paddings on table layout*/
+/* paddings on table layout*/
 		
 .tve-woocommerce .cnt .checkout #order_review table.shop_table td, .tve-woocommerce .cnt .checkout #order_review table.shop_table th {
     background: none;
@@ -552,10 +544,9 @@
 .product-subtotal {
     padding: 20px 0px 24px !important;
 }
-		
-		
-		
   }
+
+/* ENDING of Media Query for fixing  responsiveness on 480px screens */
 
   /* //Media Queries END // */
   
