@@ -94,12 +94,6 @@
     background: #330170 !important;
   }
   
-  /******************On the ORIGINAL WOOCOMMERCE page, Edits plus and minus buttons in Original WooCommerce DONT NEED!!*/
-  .woocommerce div.product form.cart div.quantity.buttons_added [type="button"] {
-    background: #330170 !important;
-  }
-  
-  
   /*Woo Events*/
   .we-icl-import .btn {
     background: #330170 !important;
@@ -669,7 +663,7 @@
   }
   
 
- /*makes the Menu layout full and fixed when scrolling********************************************* DUP*/
+ /*makes the Menu layout full and fixed when scrolling*/
  #floating_menu {
     width: 100%;
     z-index: 101;
@@ -679,7 +673,7 @@
     position: fixed;
   }
 
-/*Changes the spacing around the logo in menu *****************MOVE*/
+/*Changes the padding on the website*/
 .wrp {
     margin: 0 auto;
     padding: 0px 10px;
@@ -691,16 +685,6 @@
     display: inline-block;
     vertical-align: bottom;
     width: 85%;
-  }
-
- /*makes the Menu layout full and fixed when scrolling********************************************* DUP*/
-#floating_menu {
-    width: 100%;
-    z-index: 101;
-    -webkit-transition: all, .2s, linear;
-    -moz-transition: all, .2s, linear;
-    transition: all, .2s, linear;
-    position: fixed;
   }
 
 /* // Changes Header END // */ 
